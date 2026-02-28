@@ -1,0 +1,22 @@
+# Ignore build directories
+build*/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Ignore Qt Creator user-specific files
+*.user
+*.autosave
+
+# Ignore backup and temp files
+*.log
+*.tmp
+*.bak
+
+# Ignore generated files
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
